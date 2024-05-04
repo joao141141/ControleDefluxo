@@ -1,4 +1,4 @@
-public class sistemamedidaIE {
+public class SistemamedidaIE {
     public static void main(String[] args) {
         String sigla = "G";
         
