@@ -1,14 +1,18 @@
+
 public class SistemamedidaIE {
+
     public static void main(String[] args) {
         String sigla = "G";
-        
-        if (sigla == "P")
-            System.out.println("Pequeno");
-        else if (sigla == "M")
-            System.out.println("Médio"); 
-        else if (sigla == "G")
-            System.out.println("Grande");
-        else
-            System.out.println("INDEFINIDO"); 
+
+        switch (sigla) {
+            case "P" ->
+                System.out.println("Pequeno");
+            case "M" ->
+                System.out.println("Médio");
+            case "G" ->
+                System.out.println("Grande");
+            default ->
+                System.out.println("INDEFINIDO");
+        }
     }
 }

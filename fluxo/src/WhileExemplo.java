@@ -26,6 +26,7 @@ while
      */
     public static void main(String[] args) {
         double mesada = 50;
+
         while (mesada > 0) {
             double valorDoce = valorAleatorio();
             if (valorDoce > mesada) {
@@ -44,6 +45,6 @@ while
     }
 
     private static double valorAleatorio() {
-        return ThreadLocalRandom.current().nextDouble(2, 8);
+        return ThreadLocalRandom.current().nextDouble(2, 15);
     }
 }
